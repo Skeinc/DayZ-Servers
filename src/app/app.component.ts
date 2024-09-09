@@ -1,13 +1,7 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    template: '<app-application></app-application>'
 })
-export class AppComponent {
-  title = 'Dayz-Servers';
-}
+export class AppComponent {}
